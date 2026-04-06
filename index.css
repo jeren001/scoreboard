@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    background-color: rgba(12, 12, 72, 0.947);
+    font-family: "Times New Roman", Times, serif;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    height: 100vh;
+}
+
+div {
+    text-align: center;
+}
+
+h3  {
+    margin-bottom: 10px;
+    
+    font-size: 3rem;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+}
+
+
+h4 {
+    font-size: 5rem;
+    font-family: 'Orbitron', sans-serif;
+    color: #ff0000;
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.7);
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 180px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background: transparent;
+    color: white;
+    cursor: pointer;
+
+    /* shape and border */
+    border: 1px solid white;
+    /* Adjust color to match your background */
+    border-radius: 5px;
+
+    /* size */
+    padding: 10px 10px;
+    min-width: 40px;
+    margin-top: 20px;
+
+    /* typography */
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+    /*smooth transition */
+    transition: all 0.3s ease;
+}
+
+
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.048);
+    border-color: white;
+}
+
+button:active {
+    transform: scale(0.85);
+    /* Slight "press" effect */
+}
+
